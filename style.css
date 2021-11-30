@@ -1,1 +1,83 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2vw;
+}
+
+body nav {
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+body nav div {
+  padding: 10px;
+  font-size: 2em;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+body nav div a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  display: block;
+  border: 2px solid black;
+  background-color: gray;
+}
+
+body nav div :hover {
+  background-color: black;
+  color: white;
+}
+
+body main {
+  margin: 0 5vw;
+  border: 2px  solid black;
+  text-align: center;
+  padding: 3vw;
+}
+
+body footer {
+  border: 2px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 3em;
+  padding: 1vw;
+}
+
+body footer a {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: gray;
+  color: white;
+}
+
+body footer :hover {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
